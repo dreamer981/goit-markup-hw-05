@@ -553,16 +553,25 @@ MODAL PENCERE */
 .input-focus {
   width: 360px;
   height: 40px;
-  display: block;
-  border: 1px solid #2e2f4266;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -4%;
+  border: 1px, solid, rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  outline: none;
   padding-left: 36px;
-  margin-top: 8px;
+  margin-top: 4px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border-color;
 }
 
 .input-focus:focus {
-  border: 1px solid #4d5ae5;
+  border-color: #404bbf;
 }
+
+
 
 .inputs-position {
   width: 360px;
@@ -574,13 +583,20 @@ MODAL PENCERE */
 #comment {
   width: 360px;
   height: 120px;
-  display: block;
-  border: 1px solid #2e2f4266;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -4%;
+  border: 1px, solid, rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  outline: none;
+  position: relative;
   resize: none;
-  padding-top: 10px;
-  padding-left: 15px;
-  margin-top: 8px;
+  padding: 10px;
+  top: 4px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border-color;
 }
 
 #comment::placeholder {
@@ -588,19 +604,22 @@ MODAL PENCERE */
 }
 
 #comment:focus {
-  border-color: 1px solid #404bbf;
+  border-color: #404bbf;
 }
 
 
 .icons-form {
+  width: 18px;
+  height: 24px;
+  top: 24px;
+  left: 12px;
   position: absolute;
-  left: 10px;
-  top: 30px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
 }
 
-.icons-form:focus {
+.input-focus:focus+.icons-form {
   fill: #404bbf;
  }
 
