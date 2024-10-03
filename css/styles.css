@@ -630,6 +630,8 @@ MODAL PENCERE */
   position: absolute;
   width: 360px;
   height: 16px;
+  display: flex;
+  justify-content:left;
 }
 
 .checkbox-text {
@@ -645,6 +647,7 @@ MODAL PENCERE */
   height: 16px;
   left: 24px;
   top: 450px;
+  margin-right: 8px;
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -662,7 +665,7 @@ MODAL PENCERE */
 
 .checkbox-svg {
   position: absolute;
-  margin-left: -16px;
+  margin-left: -21px;
   margin-top: 4px;
 }
 
