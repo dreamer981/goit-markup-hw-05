@@ -764,13 +764,13 @@ MODAL PENCERE */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: -4%;
-  text-align: left;
+  display: flex;
   justify-content: center;
+  text-align: left;
   width: 165px;
   height: 40px;
   border-radius: 4px;
   border: none;
-  margin: auto;
   margin-left: 10px;
   padding: 8px 24px;
   border-radius: 4px;
@@ -784,4 +784,9 @@ MODAL PENCERE */
 
 .icon-send {
   margin-left: 14px;
+}
+
+.footer-form {
+  display: flex;
+  justify-content: center;
 }
